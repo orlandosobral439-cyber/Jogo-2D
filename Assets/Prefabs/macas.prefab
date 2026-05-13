@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6607950868641033894}
   - component: {fileID: 4849913490242072325}
   - component: {fileID: 7191204209264404705}
-  - component: {fileID: 95849735561312571}
   - component: {fileID: 2228927426314577459}
+  - component: {fileID: 2553227454597352583}
   m_Layer: 0
   m_Name: macas
   m_TagString: Untagged
@@ -112,19 +112,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &95849735561312571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6137731066323839242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80dede8a6d7940643b856f02027184e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  efeitoDeExplosao: {fileID: 1510312335458548990, guid: 99aff2aa214d1b743a885ed40d7158cb, type: 3}
 --- !u!61 &2228927426314577459
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -171,3 +158,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.7, y: 0.8}
   m_EdgeRadius: 0
+--- !u!114 &2553227454597352583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137731066323839242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bff419e1d07cb47a40b507412090c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efeitoDeExplosao: {fileID: 1510312335458548990, guid: 99aff2aa214d1b743a885ed40d7158cb, type: 3}

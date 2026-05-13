@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1148392099398684818}
   - component: {fileID: 2478031804898572909}
   - component: {fileID: 5891276870881348915}
-  - component: {fileID: 8494296219290504107}
   - component: {fileID: 6803302445176718188}
+  - component: {fileID: 4300119888087612499}
   m_Layer: 0
   m_Name: kiwi
   m_TagString: Untagged
@@ -136,19 +136,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0
---- !u!114 &8494296219290504107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225838895718140758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80dede8a6d7940643b856f02027184e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  efeitoDeExplosao: {fileID: 1510312335458548990, guid: 99aff2aa214d1b743a885ed40d7158cb, type: 3}
 --- !u!95 &6803302445176718188
 Animator:
   serializedVersion: 7
@@ -171,3 +158,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4300119888087612499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225838895718140758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bff419e1d07cb47a40b507412090c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efeitoDeExplosao: {fileID: 1510312335458548990, guid: 99aff2aa214d1b743a885ed40d7158cb, type: 3}
